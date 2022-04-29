@@ -6,7 +6,6 @@ class Quizzler extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.grey.shade900,
         body: SafeArea(
@@ -93,3 +92,12 @@ class _QuizPageState extends State<QuizPage> {
     );
   }
 }
+//Questions and answers for the quiz =>
+//'Coffee is a berry-based beverage' : true
+//'The capital of Australia is Sydney' : false
+//'The longest river in the world is the Amazon River' : false
+//'In a regular deck of cards, all kings have a mustache' : false
+//'There is no English word that rhymes with orange' : true
+//'The letter ‘A’ is the most commonly used in the English language' : false
+//'The first living animal sent into space were fruit flies' : true
+//'Among the letters of the alphabet, only the letter J is not included in the periodic table' : true
